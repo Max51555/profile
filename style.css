@@ -1,0 +1,98 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700&display=swap');
+h1 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #61af26;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Amatic SC', sans-serif;
+  color: #61af26;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+a:hover {
+  opacity: 1.0;
+}
+
+body {
+  background-image: url("images/beach.jpg");
+  background-color: #cccccc;
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.card {
+  background: #e9f2fff7;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  padding: 30px
+  width: 500px;
+  margin: 16px auto;
+}
+
+.img_circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  }
+
+.list_inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list_inline { list-style: none;
+  padding-left: 0px;
+}
+
+.btn {
+  border: 20px;
+  background-color: #61af26;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 16px;
+  box-shadow: 3px 17px 30px rgba(0,0,0,.1);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
